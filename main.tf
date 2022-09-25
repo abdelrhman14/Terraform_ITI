@@ -11,5 +11,7 @@ module "iti_network" {
   route_table_private1_cidr = var.route_table_private1_cidr
   route_table_private2_cidr = var.route_table_private2_cidr
 
+  region = var.region
+
 
 }
